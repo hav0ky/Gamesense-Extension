@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Gamesense Extension",
+    "version": "1.0",
+    "description": "Gamesense.pub extension to show subscribed workshop luas.",
+    "icons": {
+        "16": "/img/logo.png",
+        "32": "/img/logo.png",
+        "48": "/img/logo.png",
+        "128": "/img/logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://gamesense.pub/forums/viewforum.php?id=11*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ],
+    "homepage_url": "https://discord.gg/68TSmS7cg3"
+}
