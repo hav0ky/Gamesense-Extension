@@ -13,4 +13,4 @@
 ![luas](https://i.imgur.com/kxxfXoE.jpg)
 
 ### Support
-If you need any support, contact me on discord `Hav0k#5900`
+If you need any support, contact me on discord `syntax#5128`
