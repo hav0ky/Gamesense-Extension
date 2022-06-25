@@ -1,16 +1,22 @@
 <div align="center">
   
   # ![gamesense](https://i.imgur.com/aRXLYlC.png)
-  Simple [gamesense.pub](https://gamesense.pub) extension to show subscribed workshop scripts
+  Simple [gamesense.pub](https://gamesense.pub) extension
 
 </div>
 
 ### About
-* All subscribed scripts will be displayed on the main [Lua Workshop](https://gamesense.pub/forums/viewforum.php?id=11) page with their corroesponding links.
-* It can take some time to load if you have many subscribed scripts.
+* Displays all you workshop subscribed scripts with their thread links on the Lua Workshop Page.
+* Copy and Download button for scripts.
 
 ### Preview
-![luas](https://i.imgur.com/kxxfXoE.jpg)
+Workshop Scripts
+<br>
+![luas](https://i.imgur.com/SXseDk6.jpg)
+<br><br>
+Copy & Download Button
+<br>
+![copy](https://i.imgur.com/1bdsrK1.png)
 
 ### Support
-If you need any support, contact me on discord `syntax#5128`
+If you need any support, contact me on discord [Syntax Club](https://discord.gg/68TSmS7cg3)
