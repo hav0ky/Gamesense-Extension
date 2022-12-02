@@ -1,0 +1,60 @@
+{
+    "manifest_version": 3,
+    "name": "Gamesense Extension",
+    "version": "2.0",
+    "description": "Gamesense.pub extension",
+    "icons": {
+        "16": "/img/logo.png",
+        "32": "/img/logo.png",
+        "48": "/img/logo.png",
+        "128": "/img/logo.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/img/logo.png",
+            "24": "/img/logo.png",
+            "32": "/img/logo.png"
+        },
+        "default_title": "Extension Settings",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://gamesense.pub/forums/viewforum.php?id=11"
+            ],
+            "js": [
+                "main.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://gamesense.pub/forums/*"
+            ],
+            "js": [
+                "home.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "https://gamesense.pub/forums/viewtopic.php?id=*"
+            ],
+            "js": [
+                "buttons.js"
+            ]
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "popup.js"
+            ]
+        }
+    ],
+    "homepage_url": "https://discord.gg/68TSmS7cg3",
+    "permissions": [
+        "storage"
+    ]
+}

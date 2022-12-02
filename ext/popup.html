@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./popup.js"></script>
+</head>
+<style>
+    /* The container */
+    body {
+        width: 200px;
+        background-color: #353534;
+        font-family: "Verdana";
+    }
+
+    /* #272726 */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        font-size: 11px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    label {
+        color: #d1d5db;
+    }
+
+    h2 {
+        padding-left: 45px;
+        color: white;
+        font-weight: normal;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 8px;
+        margin-top: 3px;
+        height: 8px;
+        width: 8px;
+        background-color: #eee;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input~.checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked~.checkmark {
+        background-color: #95b806;
+    }
+
+    .gradient_line {
+        padding-bottom: 1px;
+        margin-bottom: 5px;
+        background:
+            linear-gradient(to right, #1e5799 0, #f300ff 50%, #e0ff00 100%) no-repeat;
+        background-size: 100% 1px;
+    }
+</style>
+
+<body>
+    <div class="gradient_line"></div>
+    <label class="container" for="workshop">Workshop subscribed luas.
+        <input type="checkbox" id="workshop">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container" for="cpy">Copy & Download button.
+        <input type="checkbox" id="cpy" name="cpy">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container" for="hide">Hide user details.
+        <input type="checkbox" id="hide">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container" for="dis">Display number of days left.
+        <input type="checkbox" id="dis">
+        <span class="checkmark"></span>
+    </label>
+</body>
+
+</html>
