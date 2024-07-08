@@ -19,4 +19,4 @@ Copy & Download Button
 ![copy](https://i.imgur.com/1bdsrK1.png)
 
 ### Support
-If you need any support, contact me on discord [Syntax Club](https://discord.gg/68TSmS7cg3)
+If you need any support, contact me on discord @hvky
